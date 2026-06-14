@@ -1,0 +1,8 @@
+Comando uname -a:
+Muestra información detallada del sistema operativo y del kernel. En mi caso: Linux localhost 5.15.189-android13-8-00013-gaa2747a3794a-ab14413887 #1 SMP PREEMPT Mon Nov 10 02:47:23 UTC 2025 aarch64 Android. Indica que uso Linux versión 5.15.189 en arquitectura aarch64 sobre Android 13.
+
+Comando whoami:
+Muestra el nombre del usuario actual del sistema. En mi caso: u0_a289.
+
+Importancia:
+Conocer esta información es útil cuando se administra un servidor porque permite verificar la versión del kernel para aplicar parches de seguridad, confirmar la arquitectura para instalar software compatible, y saber con qué usuario se están ejecutando los procesos. Si hay una vulnerabilidad en una versión específica de Linux, con uname -a sabríamos si estamos afectados. Con whoami verificamos permisos antes de ejecutar comandos críticos.
